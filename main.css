@@ -89,11 +89,11 @@ a:hover {
 }
 @font-face {
   font-family: 'Flaticon';
-  src: url("icons/flaticon.eot");
-  src: url("icons/flaticon.eot?#iefix") format('embedded-opentype'), 
-  url("icons/flaticon.woff") format('woff'), 
-  url("icons/flaticon.ttf") format('truetype'), 
-  url("icons/flaticon.svg#flaticon") format('svg');
+  src: url("http://bitbit.cash/icons/flaticon.eot");
+  src: url("http://bitbit.cash/icons/flaticon.eot?#iefix") format('embedded-opentype'), 
+  url("http://bitbit.cash/icons/flaticon.woff") format('woff'), 
+  url("http://bitbit.cash/icons/flaticon.ttf") format('truetype'), 
+  url("http://bitbit.cash/icons/flaticon.svg#flaticon") format('svg');
   font-weight: normal;
   font-style: normal;
 }
