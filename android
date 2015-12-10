@@ -3,11 +3,17 @@
 <head>
  <!-- HTML meta refresh URL redirection -->
 	 <meta http-equiv="refresh"
-	 content="0; url=https://play.google.com/store/search?q=bitbit&c=apps&hl=en">
+	 content="0; url=https://play.google.com/store/search?q=bitbit&c=apps&hl=en">	 
     <title>Bitbit - Download on Google Play Store</title>
+    <meta name="description" content="Bitbit is a mobile money wallet that allows you to bring your money securely wherever you go. Bitbit allows you to send, receive and share money with friends and family with just a few taps over email, mobile and social media. Unlike other Bitcoin wallets, your bitcoin is free from volatility because you can store your money in Peso.">
+    <meta name="keywords" content="mobile wallet, bitbit, bitbit.cash, bitcoin wallet, peso wallet, secure, send money, philippines, bitcoin, free bitcoin, social wallet, prepaid bitcoin, payment method">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="img/favicon.ico">
 </head>
-<body>
- 	<p><a href="https://play.google.com/store/search?q=bitbit&c=apps&hl=en">Click here to download Bitbit on Google Play Store</a></p>
+<body style="text-align: center">
+ 	<p>
+ 	<h2>Redirecting you to Bitbit on Google Play Store ...</h2>
+ 	<a href="https://play.google.com/store/search?q=bitbit&c=apps&hl=en">Click here to download Bitbit on Google Play Store</a></p>
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
