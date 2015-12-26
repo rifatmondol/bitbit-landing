@@ -2228,6 +2228,19 @@ header.main nav.navbar .navbar-header .navbar-toggle .icon-bar {
 header.main nav.navbar .navbar-header .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
+
+@media (max-width: 768px) {
+  header.main nav.navbar .navbar-header .aux {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  header.main nav.navbar .navbar-header .navbar-toggle {
+    display: none !important;
+  }
+}
+
 @media (max-width: 768px) {
   header.main nav.navbar .navbar-header .navbar-toggle {
     display: block;
@@ -2391,6 +2404,19 @@ header.main nav.navbar .nav-right a:last-of-type {
   margin-right: 15px;
   margin-left: 5px;
 }
+
+@media (max-width: 768px) {
+  header.main nav.navbar .nav-right a:last-of-type em {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  header.main nav.navbar .nav-right a:last-of-type em {
+    font-style: normal;
+  }
+}
+
 @media (max-width: 768px) {
   header.main.logged-in .navbar-brand {
     width: auto;
@@ -4103,6 +4129,15 @@ fieldset[disabled] .checkbox label {
   width: 25%;
 }
 
+@media (max-width: 480px) {
+  .more-help .chat-link {
+    display: block;
+    width: auto;
+    float: none;
+    margin: 20px 0 !important;    
+  }
+}
+
 .more-help .col-md-3 {
   width: 24%;
   float: left;
@@ -4111,6 +4146,12 @@ fieldset[disabled] .checkbox label {
 .more-help .col-md-5 {
   width: 24%;
   float: left;
+}
+
+@media (max-width: 480px) {
+  .more-help .col-xs-6 {
+    width: 50%
+  }
 }
 
 .more-help .btn-block {
