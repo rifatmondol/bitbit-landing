@@ -4116,7 +4116,7 @@ fieldset[disabled] .checkbox label {
 .more-help {
   border: 1px solid #DDD;
   margin: 0 15px 30px 15px;
-  min-height: 100px;
+  min-height: 140px;
 }
 
 .more-help .panel-heading {
